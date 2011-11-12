@@ -1,0 +1,7 @@
+{
+ "name":"awesomeport",
+ "version":"0.1.0",
+ "description":"find a nice looking free port",
+ "author": "Mathias Buus Madsen <mathiasbuus@gmail.com>",
+ "bin":{"awesomeport":"./index.js"}
+}
