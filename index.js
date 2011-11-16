@@ -35,7 +35,7 @@ for (var i = 7; i < 11; i++) {
 }
 
 var from = 7000;
-var i = 0;
+var i = process.argv.indexOf('--random') > -1 ? (Math.random() * ports.length)|0 : 0;
 
 var find = function() {
 	var current = ports[i++] || from++;
